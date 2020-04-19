@@ -1,19 +1,21 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 int main()	{
-	freopen("in.txt", "r", stdin);
+	fstream in;
+	in.open("in.txt", ios::out | ios::in);
 
 	int i;
 	double l[8], r[8], D[8], squareDiff[4], sqDifAvg, R;
 	
-	cout << "按实验中的测量顺序，即从小到大，在in.txt中输入十字叉丝从左到右移动测得的16个数据";
+	cout << "按实验中的测量顺序，即从小到大，在in.txt中输入十字叉丝从左到右移动测得的16个数据" << endl;
 	for (i = 0; i < 8; i++)	{
-		cin >> l[i];
+		in >> l[i];
 		l[i] /= 1000;
 	}
 	for (i = 0; i < 8; i++)	{
-		cin >> r[i];
+		in >> r[i];
 		r[i] /= 1000;
 		D[i] = r[i] - l[7-i];
 		cout << "D[" << i << "](m) = " << D[i] << endl;
@@ -27,6 +29,6 @@ int main()	{
 	R = sqDifAvg / (80 * 589 * 1e-9);
 	cout << "R(m) = " << R << endl;
 
-	getchar();
+	cin.get();
 	return 0;
 }
