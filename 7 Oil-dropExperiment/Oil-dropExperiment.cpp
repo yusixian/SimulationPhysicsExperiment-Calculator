@@ -6,9 +6,11 @@ using namespace std;
 int main()	{
 	// 采用文件重定向stdin
 	freopen("in.txt", "r", stdin);
+
 	double U[8], U_avg, t[8], t_avg, e_std, e_computed, RE, q;
 	U_avg = t_avg = 0.0;
 	e_std = 1.602;
+	
 	for ( int i = 0; i < 8; i++ )	{
 		cin >> U[i];
 		U_avg += U[i];
