@@ -28,4 +28,7 @@ int main()	{
 	cout << "q = " << q << endl;
 	cout << "e_computed = " << e_computed << endl;
 	cout << "RE% = " << RE*100 << endl;
+    getchar();
+        
+    return 0;
 }
