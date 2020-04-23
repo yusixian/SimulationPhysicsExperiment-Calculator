@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <cmath>
 using namespace std;
 
 int main()	{
@@ -9,7 +10,7 @@ int main()	{
 	int i;
 	double l[8], r[8], D[8], squareDiff[4], sqDifAvg, R;
 	
-	cout << "°´ÊµÑéÖÐµÄ²âÁ¿Ë³Ðò£¬¼´´ÓÐ¡µ½´ó£¬ÔÚin.txtÖÐÊäÈëÊ®×Ö²æË¿´Ó×óµ½ÓÒÒÆ¶¯²âµÃµÄ16¸öÊý¾Ý" << endl;
+	cout << "æŒ‰å®žéªŒä¸­çš„æµ‹é‡é¡ºåºï¼Œå³ä»Žå°åˆ°å¤§ï¼Œåœ¨in.txtä¸­è¾“å…¥åå­—å‰ä¸ä»Žå·¦åˆ°å³ç§»åŠ¨æµ‹å¾—çš„16ä¸ªæ•°æ®" << endl;
 	for (i = 0; i < 8; i++)	{
 		in >> l[i];
 		l[i] /= 1000;
@@ -17,8 +18,8 @@ int main()	{
 	for (i = 0; i < 8; i++)	{
 		in >> r[i];
 		r[i] /= 1000;
-		D[i] = r[i] - l[7-i];
-		cout << "D[" << i << "](m) = " << D[i] << endl;
+		D[i] = fabs(r[i] - l[7-i]);
+		cout << "D[" << (i+1) << "](m) = " << D[i] << endl;
 	}
 	cout << endl;
 	for (i = 0, sqDifAvg = 0; i < 4; i++)	{
