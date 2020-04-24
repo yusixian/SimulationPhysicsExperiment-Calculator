@@ -1,0 +1,18 @@
+﻿<Window x:Class="牛顿环计算.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:牛顿环计算"
+        mc:Ignorable="d"
+        Title="物理实验计算工具 - 牛顿环" Height="600" Width="800">
+    <Grid>
+        <Label Content="牛顿环（干涉法测微小量）实验计算工具" HorizontalAlignment="Center" Height="86" Margin="10,10,5,0" VerticalAlignment="Top" Width="777" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="请在下面的文本框中按顺序（升序、降序均可）输入测得的 16 组数据（单位：mm ），用空格隔开。" HorizontalAlignment="Center" Height="50" Margin="10,124,5,0" VerticalAlignment="Top" Width="777" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="data" HorizontalAlignment="Center" Height="80" Margin="0,222,0,0" TextWrapping="Wrap" Text="50.230 50.586 50.956 51.361 51.817 52.322 52.930 53.712 57.525 58.308 58.917 59.426 59.875 60.279 60.658 61.001" VerticalAlignment="Top" Width="792" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextChanged="TextBox_TextChanged" FontSize="14"/>
+        <Button Content="计算" HorizontalAlignment="Center" Height="60" Margin="10,499,5,0" VerticalAlignment="Top" Width="777" FontSize="20" Click="Button_Click"/>
+        <Label x:Name="answer" Content="R = 1.231 m" HorizontalAlignment="Center" Height="79" Margin="10,347,10,0" VerticalAlignment="Top" Width="772" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="取钠光灯波长 λ = 589 nm" HorizontalAlignment="Center" Height="38" Margin="10,174,5,0" VerticalAlignment="Top" Width="777" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="White" Foreground="#FFB8B8B8"/>
+
+    </Grid>
+</Window>

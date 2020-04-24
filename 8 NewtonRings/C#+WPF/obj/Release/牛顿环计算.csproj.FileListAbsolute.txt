@@ -1,0 +1,14 @@
+C:\Users\whx\source\repos\牛顿环计算\bin\Release\牛顿环计算.exe.config
+C:\Users\whx\source\repos\牛顿环计算\bin\Release\牛顿环计算.exe
+C:\Users\whx\source\repos\牛顿环计算\bin\Release\牛顿环计算.pdb
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\MainWindow.g.cs
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\App.g.cs
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\牛顿环计算_MarkupCompile.cache
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\牛顿环计算_MarkupCompile.lref
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\MainWindow.baml
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\牛顿环计算.g.resources
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\牛顿环计算.Properties.Resources.resources
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\牛顿环计算.csproj.GenerateResource.cache
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\牛顿环计算.csproj.CoreCompileInputs.cache
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\牛顿环计算.exe
+C:\Users\whx\source\repos\牛顿环计算\obj\Release\牛顿环计算.pdb
