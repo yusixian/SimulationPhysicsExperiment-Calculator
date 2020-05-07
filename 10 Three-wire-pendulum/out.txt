@@ -1,0 +1,24 @@
+please input first a1 a2 a3(mm):
+r: 44.36mm
+please input second a1 a2 a3(mm):
+R: 98.98mm
+please input H1 H2 H3(mm):
+ave H: 419.9mm
+please input T1 T2 T3 T4 (s):
+ave T0: 1.35s
+by calculate, I0 = 0.001696 kg/m^2
+please input r1 r2 r3(mm):
+ave r1: 166.7mm
+please input R1 R2 R3(mm):
+ave R1: 192mm
+please input T1 T2 T3 T4 (s):
+ave T: 1.562s
+by calculate, I1 = 0.004711 kg/m^2
+by calculate, I = 0.003015 kg/m^2
+please input D (mm):
+please input d1 d2 d3(mm):
+ave d: 30.28mm
+please input T1 T2 T3 T4 (s):
+ave T1: 1.113s
+by calculate, I1 = 0.00244 kg/m^2
+by calculate, I2 = (I1-I0)/2 = 0.000372 kg/m^2
